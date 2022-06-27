@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SIGN UP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/UAS/CSS/signup.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+
+    <section id="logUp">
+        <div class="form-12-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col my-3" style="background:white;border-radius:20px;">
+                        <div class="courses-item">
+                            <div class="row justify-content-around align-items-center mt-4 center">
+                                <div class="col">
+                                    <form class="form-horizontal" action="/UAS/PHP/signup.php" method="post" enctype="multipart/form-data">
+                                        <div class="form-group">
+                                            <div class="row">
+                                                <div class="col-md-6" data-aos="zoom-in">
+                                                    <label><b>Name</b></label>
+                                                    <input type="text" name="Name" class="form-control" required/>
+                                                    <label><b>Age</b></label>
+                                                    <input type="text" name="Age" class="form-control" required/>
+                                                    <label><b>Gender</b></label>
+                                                    <select name="Gender">   
+                                                        <option value = "Select Gender">Select Gender</option> 
+                                                        <option value = "male">Male</option> 
+                                                        <option value = "female">Female</option> 
+                                                        <option value = "others">Others</option> 
+                                                    </select> <label><b>Address</b></label>
+                                                    <input type="text" name="Address" class="form-control" required/>
+                                                    <label><b>Date of Birth</b></label>
+                                                    <input type="date" name="DoB" class="form-control" required/>
+                                                    <label><b>Class 10 Aggregate</b></label>
+                                                    <input type="text" name="Percent10" class="form-control" required/>
+                                                </div>
+                                                <div class="col-md-6" data-aos="zoom-out">
+                                                    <label><b>Class 12 Aggregate</b></label>
+                                                    <input type="text" name="Percent12" class="form-control" required/>
+                                                    <label><b>Email ID</b></label>
+                                                    <input type="email" name="Email" class="form-control" required/>
+                                                    <label><b>Select Course</b></label>
+                                                    <select name="CourseName">   
+                                                        <option value = "Select Course">Select Course</option> 
+                                                        <option value = "Information Technology">B.Tech 4yrs, Information Technology</option> 
+                                                        <option value = "Chemical Engineering">B.Tech 4yrs, Chemical Engineering</option>
+                                                        <option value = "Electrical Engineering">B.Tech 4yrs, Electrical Engineering</option>
+                                                        <option value = "Production Engineering">B.Tech 4yrs, Production Engineering</option>
+                                                        <option value = "Mechanical Engineering">B.Tech 4yrs, Mechanical Engineering</option>
+                                                        <option value = "Industrial Engineering">B.Tech 4yrs, Industrial Engineering</option>
+                                                        <option value = "Metallurgical Engineering">B.Tech 4yrs, Metallurgical Engineering</option>
+                                                        <option value = "Electronics and Communication">B.Tech 4yrs, Electronics and Communication</option> 
+                                                        <option value = "Information Technology and Business Administration">B.Tech 4yrs, Information Technology and Business Administration</option> 
+                                                    </select>
+                                                    <label><b>Password</b></label>
+                                                    <input type="password" name="Password" class="form-control mb-4" required/>
+                                                    <label><b>Upload Image</b></label>
+                                                    <input type="file" name="photo" class="form-control" style="border:none;" required/>
+                                                    <input type="submit" name="apply" value="PROCEED ">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 350,
+            duration: 1500,
+            once: true,
+        });
+    </script>
+
+</body>
+
+</html>

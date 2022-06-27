@@ -1,0 +1,114 @@
+#logUp {
+    background: #002147;
+    color: white;
+}
+
+.courses-item {
+    padding: 33px 20px;
+    border-radius: 4px;
+    height: 100%;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+.courses-item h3,
+.courses-item p {
+    text-align: center;
+}
+
+.courses-item h6 {
+    color: firebrick;
+}
+
+.courses-item a:hover {
+    text-decoration: none;
+}
+
+.courses-item p {
+    padding-top: 20px;
+}
+
+span.fa {
+    font-size: 42px;
+    align-items: center;
+}
+
+
+/*Form CSS Starts Here(Modal Forms)*/
+
+#logUp h2 {
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: firebrick;
+    font-weight: 600;
+}
+
+#logUp label {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: firebrick;
+}
+
+#logUp input,
+#logUp select,
+#infoID p button {
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 2px solid #607d8b;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+#logUp input[type="submit"] {
+    margin-top: 50px;
+    background: #ff4584;
+    color: #fff;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 8px 7px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#logUp select {
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: 2px solid #607d8b;
+    letter-spacing: 1px;
+    font-size: 20px;
+    width: 100%;
+    padding-left: 8px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    padding-right: 8px;
+}
+
+#infoID p button {
+    margin-top: 50px;
+    background: #fff;
+    display: block;
+    width: 30%;
+    border: none;
+    padding: 8px 7px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 3px solid firebrick;
+}
+
+#infoID p button a {
+    color: rgb(245, 12, 12);
+}
+
+#infoID p button a:hover {
+    text-decoration: none;
+}
+
+#logUp p {
+    color: firebrick;
+}

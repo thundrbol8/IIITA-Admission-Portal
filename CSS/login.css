@@ -1,0 +1,41 @@
+#authentication h2 {
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: rgb(231, 15, 15);
+    font-weight: 600;
+}
+
+#authentication label {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: firebrick;
+    text-align: left;
+}
+
+#authentication input {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid #607d8b;
+    letter-spacing: 1px;
+    font-size: 16px;
+    background: transparent;
+}
+
+#authentication input[type="submit"] {
+    margin-top: 50px;
+    background: #ff4584;
+    color: #fff;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 8px 7px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#authentication p {
+    color: firebrick;
+}

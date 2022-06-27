@@ -1,0 +1,318 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'sans-serif';
+}
+
+
+/* menu bar and banner CSS starts here */
+
+nav {
+    background: #002147;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+label.logo:hover {
+    color: rgb(245, 128, 73);
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(245, 128, 73);
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media(max-width:952px) {
+    label.logo {
+        font-size: 27px;
+        padding-left: 20px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:858px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        background: #002147;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    #check:checked~ul {
+        left: 0;
+        z-index: 1;
+    }
+}
+
+
+/*Login Div CSS Starts Here */
+
+#op1,
+#op2,
+#op3 {
+    background: #fff;
+    color: black;
+}
+
+#op1:hover {
+    background: rgb(241, 198, 236);
+}
+
+#op2:hover {
+    background: rgb(190, 230, 248);
+}
+
+#op3:hover {
+    background: rgb(199, 240, 199);
+}
+
+
+/*Courses Section CSS Starts Here*/
+
+#logUp {
+    background: #002147;
+    color: white;
+}
+
+.courses-item {
+    padding: 33px 20px;
+    border-radius: 4px;
+    height: 100%;
+    font-size: 15px;
+    background: #002147;
+    color: white;
+    border-radius: 5px;
+}
+
+.courses-item h3,
+.courses-item p {
+    text-align: center;
+}
+
+.courses-item h6 {
+    color: firebrick;
+}
+
+.courses-item a:hover {
+    text-decoration: none;
+}
+
+.courses-item p {
+    padding-top: 20px;
+}
+
+span.fa {
+    font-size: 42px;
+    align-items: center;
+}
+
+
+/*Form CSS Starts Here(Modal Forms)*/
+
+#authentication h2,
+#authentication h4 b,
+#authentication h4 a {
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: firebrick;
+    font-weight: 600;
+}
+
+#authentication label {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: firebrick;
+}
+
+#authentication input,
+#infoID p button {
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 2px solid #607d8b;
+    letter-spacing: 1px;
+    font-size: 16px;
+    background: transparent;
+}
+
+#authentication input[type="submit"],
+#authentication input[type="button"] {
+    margin-top: 50px;
+    background: #ff4584;
+    color: #fff;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 8px 7px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#infoID p button {
+    margin-top: 50px;
+    background: #fff;
+    display: block;
+    width: 30%;
+    border: none;
+    padding: 8px 7px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 3px solid firebrick;
+}
+
+#infoID p button a {
+    color: rgb(245, 12, 12);
+}
+
+#infoID p button a:hover {
+    text-decoration: none;
+}
+
+#authentication p {
+    color: firebrick;
+}
+
+
+/*Courses CSS Starts Here*/
+
+#course1:hover {
+    background-color: rgba(169, 154, 255, 0.993);
+    transition: all 0.5s;
+    box-shadow: 1px 1px 5px 5px rgb(169, 154, 255);
+    color: rgb(0, 0, 0);
+}
+
+#course2:hover {
+    background-color: rgba(255, 154, 242, 0.993);
+    transition: all 0.5s;
+    box-shadow: 1px 1px 5px 5px rgb(255, 154, 242);
+    color: rgb(0, 0, 0);
+}
+
+#course3:hover {
+    background-color: rgba(236, 255, 154, 0.993);
+    transition: all 0.5s;
+    box-shadow: 1px 1px 5px 5px rgb(236, 255, 154);
+    color: rgb(0, 0, 0);
+}
+
+#course4:hover {
+    background-color: rgba(154, 255, 250, 0.993);
+    transition: all 0.5s;
+    box-shadow: 1px 1px 5px 5px rgb(154, 255, 250);
+    color: rgb(0, 0, 0);
+}
+
+#course5:hover {
+    background-color: rgba(154, 255, 179, 0.993);
+    transition: all 0.5s;
+    box-shadow: 1px 1px 5px 5px rgb(154, 255, 179);
+    color: rgb(0, 0, 0);
+}
+
+#course6:hover {
+    background-color: rgba(255, 154, 184, 0.993);
+    transition: all 0.5s;
+    box-shadow: 1px 1px 5px 5px rgb(255, 154, 184);
+    color: rgb(0, 0, 0);
+}
+
+#course7:hover {
+    background-color: rgba(171, 255, 154, 0.993);
+    transition: all 0.5s;
+    box-shadow: 1px 1px 5px 5px rgb(171, 255, 154);
+    color: rgb(0, 0, 0);
+}
+
+#course8:hover {
+    background-color: rgba(255, 174, 154, 0.993);
+    transition: all 0.5s;
+    box-shadow: 1px 1px 5px 5px rgb(255, 174, 154);
+    color: rgb(0, 0, 0);
+}
+
+
+/*Footer CSS Starts Here*/
+
+.footer {
+    background: #002147;
+    color: white;
+}
+
+.footer li a {
+    color: white;
+    text-decoration: none;
+    background: #002147;
+}
+
+.footer li a {
+    color: white;
+    text-decoration: none;
+    background: #002147;
+}
+
+.footer li a:hover,
+.footer li p:hover {
+    color: yellow;
+}

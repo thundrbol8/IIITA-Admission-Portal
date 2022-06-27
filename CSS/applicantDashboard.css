@@ -1,0 +1,38 @@
+* {
+    font-family: 'Arial';
+    color: white;
+}
+
+#menuSection {
+    height: 100vh;
+}
+
+#iconSection img {
+    height: 100%;
+}
+
+#menu {
+    border: 2px;
+    border-radius: 10px;
+}
+
+#menu #op1 {
+    width: 100%;
+}
+
+#menu a:hover,
+#formDetails a:hover {
+    text-decoration: none;
+}
+
+#formDetails #op1 {
+    width: 100%;
+}
+
+#op1:hover {
+    background-color: rgb(63, 63, 230);
+}
+
+table tbody tr td {
+    font-weight: bold;
+}
